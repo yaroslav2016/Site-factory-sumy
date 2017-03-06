@@ -71,11 +71,6 @@ h3{
 .menu-top .container, .menu-top .navbar-collapse{
 	padding-left: 0;
 }
-.flag{/*фото флага в меню*/
-	margin-right: 5px;
-	position: relative;
-	top: -1px;
-}
 .menu-carousel .item{
 	min-height: 600px;
 }
@@ -326,7 +321,9 @@ h3{
 	color: #0a94b2;
 }
 .content{
-	padding: 20px 0 20px;
+    padding: 20px 0 20px;
+    line-height: 1.6;
+    font-size: 16px;
 }
 .product{
 	background:#fff;
@@ -398,11 +395,20 @@ h3{
 	background: #ececec;
 }
 footer{
-	background:grey;
-	height: 300px;
+	background:#161414;
+	color: #fff;
 }
-.footer-down{
-	background-color:#2a2730;
+.contact{
+	text-align: center;
+}
+.menu-footer{
+	text-align: center;
+}
+.copirate{
+	border-top: 1px solid #fff;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px; 
 }
 
 
