@@ -10,7 +10,7 @@ a{
 }
 /*Общие настройки для всего сайта*/
 body{
-	background: #ececec;/*цвет фона*/
+	background: #fff;/*цвет фона*/
 	font-family: 'Open Sans', sans-serif;/*Шрифт контента*/
 	font-size: 13px;/*Размер шрифта*/
 	color: #000000;/*Цвет шрифта*/
@@ -24,10 +24,12 @@ img{
 h3{
 	font-size: 24px;
 	font-weight: 700;
+	color: #FF7B00;
+	font-size: bold;
 }
 /*Кнопка верхнее меню*/
 .btn-red{
-	background: #2196F3;
+	background: #FF7B00;
 	color: #fff;
 }
 .btn-red:hover{
@@ -36,7 +38,7 @@ h3{
 /*_______________________Header______________________________*/
 .menu-top .navbar{
 	margin-bottom: 0;/*убираем margin для кнопки*/
-	background: #2196f3;
+	background: #00080b;
 	padding: 20px 0;/*с верху и снизу 20px отступ, по бокам 0*/
 	text-transform: uppercase;
 }
@@ -147,7 +149,7 @@ h3{
 
 }
 .main-menu-bg{
-	background: #000;
+	background: #16141400;
 	border-radius: 3px;
 }
 .main-menu .navbar-inverse .navbar-nav > li > a{
@@ -164,7 +166,6 @@ h3{
 }
 .main-menu .navbar-brand img{
 	float: left;
-
 }
 .main-menu .navbar-brand span{
 	display: inline-block;
@@ -197,7 +198,6 @@ h3{
 	border-top: 2px solid #bdbdbd;
 	border-bottom: 3px solid #cfcfcf;
 }
-
 .main-slogan h1{
 	font-size: 30px;
 	margin: 0;
@@ -207,19 +207,20 @@ h3{
 	padding: 50px 0 70px;
 	border-right: 3px solid #dadada;
 }
-
 .widget{
 	border-bottom: 3px solid #dadada;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 }
-
 .widget h3,
 .content h3{
 	margin-top: 0;
 	margin-bottom: 30px;
-	color: #2196F3;
+	color: #FF7B00;
 	text-align: center;
+}
+.content p{
+	text-indent: 16px;
 }
 .widget ul{
 	list-style: none;
@@ -233,7 +234,7 @@ h3{
 	display: block;
 }
 .widget ul li.more a{
-	color: #68a0d3;
+	color: #2196f3;
 }
 .sidebar .carousel{
 	overflow: hidden;
@@ -243,11 +244,9 @@ h3{
 .sidebar .sidebar-carousel-caption{
 	background: #fff;
 	border-bottom: 1px solid #e1e1e1;
-
 }
 .sidebar .sidebar-carousel-caption div{
 	padding: 20px;
-
 }
 .sidebar .sidebar-carousel-caption h4{
 	margin-top: 0;
@@ -327,10 +326,10 @@ h3{
 	color: #0a94b2;
 }
 .content{
-    padding: 20px 0 20px;
-    line-height: 1.6;
-    font-size: 16px;
-    
+	padding: 20px 0 20px;
+	line-height: 1.6;
+	font-size: 16px;
+	color: #545454;  
 }
 .product{
 	background:#fff;
@@ -342,6 +341,7 @@ h3{
 	overflow: hidden;
 	transition: all .5s;
 	margin-bottom: 20px;
+	font-weight: 700;
 }
 
 .product:hover{
@@ -374,218 +374,243 @@ h3{
 	font-weight: 700;
 	color: #000;
 	text-transform: uppercase;
-}*/
-.product-desc{
-	max-height: 60px;
-	overflow: hidden;
-	font-size: 13px
-}
-.product-price{
-	font-size: 18px;
-	font-weight: bold;
-	color: #d51e08;
-	margin-bottom: 15px;
-}
-.product-by{
-	position: absolute;
-	bottom: 28px;
-	left: 0;
-	text-align: center;
-	width: 100%;
-}
-.product-by .btn{
-	text-transform: uppercase;
-	font-weight: bold;
-	padding: 10px 25px;
-	border-radius: 3px;
-}
-.product-by .btn:hover{
-	background: #ececec;
-}
-footer{
-	background:#161414;
-	color: #fff;
-}
-.contact{
-	text-align: center;
-}
-.contact h3{
-	padding-bottom: 10px;
-	font-weight: bold;
-	text-transform: uppercase;
+	}*/
+	.product-desc{
+		max-height: 60px;
+		overflow: hidden;
+		font-size: 13px
+	}
+	.product-price{
+		font-size: 18px;
+		font-weight: bold;
+		color: #d51e08;
+		margin-bottom: 15px;
+	}
+	.product-by{
+		position: absolute;
+		bottom: 28px;
+		left: 0;
+		text-align: center;
+		width: 100%;
+	}
+	.product-by .btn{
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 10px 25px;
+		border-radius: 3px;
+	}
+	.product-by .btn:hover{
+		background: #ececec;
+	}
+
+	footer{
+		background:#161414;
+		color: #fff;
+	}
+	.contact{
+		text-align: center;
+	}
+	.contact h3{
+		padding-bottom: 10px;
+		font-weight: bold;
+		text-transform: uppercase;
 		color: #2196F3;
-}
-.menu-footer{
-	text-align: center;
-}
-.menu-footer h3{
-	padding-bottom: 10px;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #2196F3;
-}
-.copirate{
-	border-top: 1px solid #fff;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 10px; 
-}
-.goods-name{
-	padding-top: 20px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-.goods-name a{
-	padding-top: 150px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-.contact .phone img{
-	width: 20px;
-	padding-right:5px;
-}
-/*Large Devaces, Wide Screens*/
-@media screen and (max-width: 1200px) {
-	menu-top .navbar-nav,
-	main-menu .navbar-nav{
-		float:none none !important;
+		padding-top: 20px;
+	}
+	.menu-footer{
+		text-align: center;
+	}
+	.menu-footer h3{
+		padding-bottom: 10px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #2196F3;
+		padding-top: 20px;
+	}
+	.copirate{
+		border-top: 1px solid #fff;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 10px; 
+	}
+	.goods-name{
+		padding-top: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.goods-name a{
+		padding-top: 150px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.contact .phone img{
+		width: 20px;
+		padding-right:5px;
+	}
+	.phone img{
+		width: 16px;
+		padding-right:3px;
+	}
+	/*====start contact-form====*/
+	.contact-form{
+		font-weight:bold;
+	}
+	.name-teg{
+		font-weight:bold;
+	}
 
-		.menu-carousel .carousel-caption{
-			left: 20%;
-		}
-		.main-menu .navbar-form{
-			/*margin-left: 125px;*/
-			position: absolute;
-			right: 15px;
-			background: rgba(0, 0, 0, 0.5);
-			padding: 15px;
-			margin: 0;
-			display: none;
-		}
-		.search{
-			display: block;
-		}
-		.sidebar .carousel,
-		.sidebar .banner{
-			margin-right: 10px;
-		}
 
-		.menu-carousel .carousel-caption {
-			left: 250;
-			top: 250px;
-		}
+	/*====finish contact-form====*/
 
-		/*Medium Devaces, Desktops*/
-		@media screen and (max-width: 992px) {
-			.menu-carousel .carousel-caption h1{
-				font-size: 40px;
+	/*====start table-price====*/
+
+	/*====finish table-price====*/
+
+
+
+
+	/*Large Devaces, Wide Screens*/
+	@media screen and (max-width: 1200px) {
+		menu-top .navbar-nav,
+		main-menu .navbar-nav{
+			float:none none !important;
+
+			.menu-carousel .carousel-caption{
+				left: 20%;
 			}
-			.menu-carousel .carousel-caption h3{
-				font-size: 22px;	
+			.main-menu .navbar-form{
+				/*margin-left: 125px;*/
+				position: absolute;
+				right: 15px;
+				background: rgba(0, 0, 0, 0.5);
+				padding: 15px;
+				margin: 0;
+				display: none;
 			}
-			.main-menu .navbar-inverse .navbar-nav > li > a{
-				font-size: 14px;
-			}
-			.sidebar{
-				padding-bottom: 0;
-				padding-top: 0;
-				border-right: none;
+			.search{
+				display: block;
 			}
 			.sidebar .carousel,
 			.sidebar .banner{
-				margin-right: 0;
+				margin-right: 10px;
 			}
-			.products-row{
-				margin: 20px 0;
+
+			.menu-carousel .carousel-caption {
+				left: 250;
+				top: 250px;
 			}
-		}
-		/*Small Devaces, Tablets*/
-		@media screen and (max-width: 768px) {
-			.main-menu .container{
-				padding-left: 0;
-				padding-right: 0;
+
+			/*Medium Devaces, Desktops*/
+			@media screen and (max-width: 992px) {
+				.menu-carousel .carousel-caption h1{
+					font-size: 40px;
+				}
+				.menu-carousel .carousel-caption h3{
+					font-size: 22px;	
+				}
+				.main-menu .navbar-inverse .navbar-nav > li > a{
+					font-size: 14px;
+				}
+				.sidebar{
+					padding-bottom: 0;
+					padding-top: 0;
+					border-right: none;
+				}
+				.sidebar .carousel,
+				.sidebar .banner{
+					margin-right: 0;
+				}
+				.products-row{
+					margin: 20px 0;
+				}
 			}
-			.content{
-				padding-top: 10px;
-				padding-bottom: 0;
+			/*Small Devaces, Tablets*/
+			@media screen and (max-width: 768px) {
+				.main-menu .container{
+					padding-left: 0;
+					padding-right: 0;
+				}
+				.content{
+					padding-top: 10px;
+					padding-bottom: 0;
+				}
+				.product{
+					margin-bottom: 10px; 
+				}
+				.products-row{
+					margin: 20px 0;
+				}
 			}
-			.product{
-				margin-bottom: 10px; 
+
+			@media screen and (max-width: 767px) {
+				.menu-top .navbar-default .navbar-nav > li > a:hover {
+					background: #eee;
+				}
+				.menu-top .container, .menu-top .navbar-collapse{
+					padding-left: 15px;
+				}
+				.menu-carousel .carousel-caption h1{
+					font-size: 38px;
+				}
+				.menu-carousel .carousel-caption h3{
+					font-size: 20px;	
+				}
+				/*button*/
+				.menu-carousel .carousel-caption .btn-red{
+					padding: 15px 20px;
+					border-radius: 5px;
+					color: #fff;
+					font-size: 16px;
+				}
+				}.main-menu .navbar-inverse .navbar-nav > li >a:hover{
+					text-decoration: none;
+					background: #222;
+				}
+				.main-menu .navbar-form{
+					margin:8px 0;
+				}
+				.main-menu .navbar-brand img{
+					max-height: 50px;
+				}
+				.main-menu .navbar-toggle.collapsed +.navbar-brand img{
+					max-height: none;
+					position: relative;
+					z-index: 20;
+				}
+				.search{
+					display: none;
+				}
+				.main-menu .navbar-form{
+					display: block !important;
+					position: relative;
+					right: 0;
+					background: transparent;
+				}
 			}
-			.products-row{
-				margin: 20px 0;
+
+
+			.sidebar .carousel,
+			.sidebar .banner{
+				display: inline-block;
 			}
 		}
 
-		@media screen and (max-width: 767px) {
-			.menu-top .navbar-default .navbar-nav > li > a:hover {
-				background: #eee;
-			}
-			.menu-top .container, .menu-top .navbar-collapse{
-				padding-left: 15px;
-			}
-			.menu-carousel .carousel-caption h1{
-				font-size: 38px;
-			}
-			.menu-carousel .carousel-caption h3{
-				font-size: 20px;	
-			}
-			/*button*/
+
+
+		/*Extra Small Devaises, Phone*/
+		@media screen and (max-width: 480px) {
 			.menu-carousel .carousel-caption .btn-red{
-				padding: 15px 20px;
-				border-radius: 5px;
-				color: #fff;
-				font-size: 16px;
-			}
-			}.main-menu .navbar-inverse .navbar-nav > li >a:hover{
-				text-decoration: none;
-				background: #222;
-			}
-			.main-menu .navbar-form{
-				margin:8px 0;
-			}
-			.main-menu .navbar-brand img{
-				max-height: 50px;
+				font-size: 14px;
 			}
 			.main-menu .navbar-toggle.collapsed +.navbar-brand img{
-				max-height: none;
-				position: relative;
-				z-index: 20;
+				max-height: 80px;
 			}
-			.search{
-				display: none;
-			}
+		}
+		@media only screen and (min-width: 1200px) {
 			.main-menu .navbar-form{
 				display: block !important;
-				position: relative;
-				right: 0;
-				background: transparent;
 			}
 		}
-
-
-		.sidebar .carousel,
-		.sidebar .banner{
-			display: inline-block;
-		}
-	}
-
-
-
-	/*Extra Small Devaises, Phone*/
-	@media screen and (max-width: 480px) {
-		.menu-carousel .carousel-caption .btn-red{
-			font-size: 14px;
-		}
-		.main-menu .navbar-toggle.collapsed +.navbar-brand img{
-			max-height: 80px;
-		}
-	}
-	@media only screen and (min-width: 1200px) {
-		.main-menu .navbar-form{
-			display: block !important;
-		}
-	}
 
 
 
