@@ -204,7 +204,7 @@ h3{
 	font-weight: bold;
 }
 .sidebar{
-	padding: 50px 0 70px;
+	padding: 20px 0 70px;
 	border-right: 3px solid #dadada;
 }
 .widget{
@@ -214,7 +214,7 @@ h3{
 }
 .widget h3,
 .content h3{
-	margin-top: 0;
+	margin-top: 20px;
 	margin-bottom: 30px;
 	color: #FF7B00;
 	text-align: center;
@@ -328,7 +328,7 @@ h3{
 .content{
 	padding: 20px 0 20px;
 	line-height: 1.6;
-	font-size: 16px;
+	font-size: 15px;
 	color: #545454;  
 }
 .product{
@@ -408,7 +408,7 @@ h3{
 		color: #fff;
 	}
 	.contact{
-		text-align: center;
+		text-align: left;
 	}
 	.contact h3{
 		padding-bottom: 10px;
@@ -416,9 +416,10 @@ h3{
 		text-transform: uppercase;
 		color: #2196F3;
 		padding-top: 20px;
+		text-align: center;
 	}
 	.menu-footer{
-		text-align: center;
+		text-align: left;
 	}
 	.menu-footer h3{
 		padding-bottom: 10px;
@@ -426,6 +427,12 @@ h3{
 		text-transform: uppercase;
 		color: #2196F3;
 		padding-top: 20px;
+	}
+	.menu-footer ul li a{
+		color: #fff;
+	}
+	.menu-footer a:hover{
+		color: #2196F3;
 	}
 	.copirate{
 		border-top: 1px solid #fff;
@@ -458,14 +465,21 @@ h3{
 	.name-teg{
 		font-weight:bold;
 	}
-
-
 	/*====finish contact-form====*/
+
 
 	/*====start table-price====*/
 
 	/*====finish table-price====*/
-
+	.list-number{
+		color: #1E7AC4;
+		font-weight: bold;
+		padding-left: 50px;
+	}
+	.a.btn-red{
+		font-weight: 700;
+		text-transform: uppercase;
+	}
 
 
 

@@ -12,14 +12,11 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-
     <!-- удалить потом -->
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?LR-verbose&snipver=1&LiveTest=1"></' + 'script>')</script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35730/livereload.js?LR-verbose&snipver=1&LiveTest=1"></' + 'script>')</script>
     <a href="#LiveTest" onclick="location.reload(true)" target="_blank">Start testing</a>
     <!--/ удалить потом -->
-
-
     <header>
         <div class="menu-top">
             <nav class="navbar navbar-default">
@@ -37,12 +34,12 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="menu-top">
                         <ul class="nav navbar-nav">
-                           <li><a href="index.html" title="contact">О предприятии</a></li>
-                           <li><a href="page1.html" title="contact">Продукция</a></li>
-                           <li><a href="page2.html" title="contact">Недвижимость</a></li>
-                           <li><a href="page3.html" title="contact">Контакты</a></li>
-                       </ul>
-                       <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" title="О предприятии">О предприятии</a></li>
+                            <li><a href="page1.html" title="Продукция">Продукция</a></li>
+                            <li><a href="page2.html" title="Недвижимость">Недвижимость</a></li>
+                            <li><a href="page3.html" title="Контакты">Контакты</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
                          <li class="tell"><span class="phone"><img src="img/phone1.png" alt="phone"> +380665791239</li></span><br>
                          <li class="tell"><span class="phone"><img src="img/phone1.png" alt="phone"> +380630788361</li></span>
                      </ul>
@@ -50,50 +47,68 @@
              </div><!-- /.container-fluid -->
          </nav>
      </div><!--menu-top-->
-     <section class="main-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9 col-md-push-3">
+ </header>
+ <section class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-md-push-3">
+                <div class="content">   
 
-
-
-                 <!--Контактная форма-->
-                 <div class="row">
-                    <h3 id="contact" >Контакты</h3>
+                   <!--Контактная форма-->
+                   <div class="row">
+                    <h3 class="wow bounce">Контакты</h3>
                     <div>
-                       <p>Для того что бы сделать заказ, необходимо в форме обратной связи указать Ваши данные:  
-                        Имя; 
-                        Контактный телефон;
-                        Наиминование товара.
-                        После чего с Вами свяжется наш менеджер по продажам и оформит заказ.
-                    </p>
-                    <p >Уважаемые посетители сайта, мы будем благодарны за любой оставленный Вами отзыв. Мы обязательно учтем Ваше мнение для улучшения качества наших услуг. Спасибо!
-                    </p>
-                </div>
-                <div class="form-group col-sm-8 text-left form-group">
-                    <label for="name" class="name-teg">Имя</label>
-                    <input type="text" class="form-control" id="name"  placeholder="Введите ваше имя" required>
-                </div>
-                <div class="form-group col-sm-8  form-group text-left">
-                    <label for="email" class="name-teg">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Введите ваш email" required><br>
-                </div>
-                <div class="form-group col-sm-8 text-left">
-                    <label for="email" class="name-teg">Контактный телефон</label>
-                    <input type="email" class="form-control" id="email" placeholder="Введите ваш телефон" required><br>
-                </div>
-            </div>
-            <!-- finish class="row" -->
-            <div class="form-group">
-                <label for="message"class="name-teg">Сообщение</label>
-                <textarea id="message" class="form-control" rows="5" placeholder="Введите текст сообщения" required></textarea>
-            </div>
-            <button type="submit" id="form-submit" class="bbtn btn-red btn-lg pull-right ">Отправить</button>
-            <div id="msgSubmit" class="h3 text-center hidden">Отправить сообщение</div>
-            <!--Конец Контактная форма-->
+                        <h4 class="wow bounce">Заявки(опт)</h4>
+                        <p>Для того что бы сделать заказ, необходимо в форме обратной связи указать:</p> 
+                        <ul style="list-style-type:circle" class="list-number">
+                            <p><li> Имя; </li></p>
+                            <p><li> E-mail; </li></p>
+                            <p><li>Контактный телефон;</li></p>
+                            <p><li>Наиминование товара.</li></p>
+                        </ul>
+                        После чего с Вами свяжется наш менеджер по продажам и оформит заказ.</hr>
 
-            <!--finish Контактная форма-->
+                        <div>
+                            <h3>По вопросам сотрудничества</h3>
+                            Заполните фору ниже, указав:
 
+                            <ul style="list-style-type:circle" class="list-number">
+                                <p><li> Имя; </li></p>
+                                <p><li>Необязательное поле;</li></p>
+                                <p><li>Контактный телефон;</li></p>
+                                <p><li>Ваш вопрос или предложение</li></p>
+                            </ul>
+                        </div>
+                        <p>После чего с Вами свяжется руководство предприятия.</p>
+
+
+                        <p>Уважаемые посетители сайта, мы будем благодарны за любой оставленный Вами отзыв. Мы обязательно учтем Ваше мнение для улучшения качества наших услуг. Спасибо!
+                        </p>
+                    </div>
+                    <div class="form-group col-sm-8 text-left form-group">
+                        <label for="name" class="name-teg">Имя</label>
+                        <input type="text" class="form-control" id="name"  placeholder="Введите ваше имя" required>
+                    </div>
+                    <div class="form-group col-sm-8  form-group text-left">
+                        <label for="email" class="name-teg">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Введите ваш email" required><br>
+                    </div>
+                    <div class="form-group col-sm-8 text-left">
+                        <label for="email" class="name-teg">Контактный телефон</label>
+                        <input type="email" class="form-control" id="email" placeholder="Введите ваш телефон" required><br>
+                    </div>
+                </div>
+                <!-- finish class="row" -->
+                <div class="form-group">
+                    <label for="message"class="name-teg">Сообщение</label>
+                    <textarea id="message" class="form-control" rows="5" placeholder="Введите текст сообщения" required></textarea>
+                </div>
+                <button type="submit" id="form-submit" class=" btn-red btn-lg pull-right ">Отправить</button>
+                <div id="msgSubmit" class="h3 text-center hidden">Отправить сообщение</div>
+                <!--Конец Контактная форма-->
+
+                <!--finish Контактная форма-->
+            </div>
 
         </div>
         <!--=================================sidebar start=======================================-->
@@ -102,15 +117,14 @@
                 <div class="row">
                     <div class="col-xs-6 col-md-12">
                         <div class="widget wow fadeInLeft" data-wow-delay="0.5s" data-wow-delay="0.5s">
-                           <h3>Категории товаров</h3>
-                           <ul>
-                            <li><a href="#" title="contact">Букса сантехническая</a></li>
-                            <li><a href="#" title="contact">Вентиль</a></li>
-                            <li><a href="#" title="contact">Заглушка</a></li>
-                            <li><a href="#" title="contact">Ниппель</a></li>
-                            <li><a href="#" title="contact">Переходник</a></li>
-                            <li><a href="#" title="contact">Контр-гайка</a></li>
-                            <li><a href="#" title="contact">Штуцер</a></li>
+                         <h3>Категории товаров</h3>
+                         <ul>
+                            <li><a href="page1.html#pg 1" title="Букса">Букса</a></li>
+                            <li><a href="page1.html#pg 2" title="Заглушки">Заглушки</a></li>
+                            <li><a href="page1.html#pg 3" title="Вентиль">Вентиля</a></li>
+                            <li><a href="page1.html#pg 4" title="Переходники">Переходники</a></li>
+                            <li><a href="page1.html#pg 5" title="Нипеля">Нипеля</a></li>
+                            <li><a href="page1.html#pg 6" title="Штуцера">Штуцера</a></li>
                             <li class="more"><a href="page1.html">Смотреть все</a></li>
                         </ul>
                     </div><!-- .widget -->
@@ -119,7 +133,6 @@
                 <div class="col-xs-6 col-md-12">
 
                 </div>
-
             </div>
 
             <div class="row">
@@ -165,7 +178,7 @@
                 </div>
 
                 <div class="col-md-12 col-xs-6 text-center">
-                   <div class="banner">
+                 <div class="banner">
                     <img src="img/banner.jpg" alt="">
                     <h3>Новинка</h3>
                     <h2>Штуцер 10 1/2H</h2>
@@ -177,39 +190,49 @@
     </div> 
 </div>
 </div>
+
 </section>
-</container>
+</div>
+
 <!-- ==========================start footer =========================-->
 <footer>
-    <div class="footer-menu">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="menu-footer">
-                     <h3>Партнерам</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae delectus facilis nesciunt nam, iste tenetur similique perferendis dolorum. Blanditiis ipsum incidunt nihil vero aspernatur dolorem saepe delectus odit deserunt omnis.</p>
-                 </div>
-             </div>
-             <div class="col-md-6">
-                <div class="contact">
-                    <h3>Контакты</h3>
-                    <ul>
-                       <li>Украина, г.Сумы</li>
-                       <li><span class="phone"><img src="img/phone1.png" alt="phone"></span>+38 0665791239</li>
-                       <li><span class="phone"><img src="img/phone1.png" alt="phone"></span>+38 0665791239</li>
-                       <li>+38 0630788361</li>
-                       <li>factory-sumy@ukr.net</li>
-                   </ul>
-               </div>
-           </div>
-       </div><!--finish "row" -->   
-       <div class="row">
+ <div class="footer-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6  col-md-6">
+                <div class="menu-footer">
+                   <h3>Категории товаров</h3>
+                   <ul>
+                    <li><a href="page1.html#pg 1" title="Букса">Букса</a></li>
+                    <li><a href="page1.html#pg 2" title="Заглушки">Заглушки</a></li>
+                    <li><a href="page1.html#pg 3" title="Вентиль">Вентиля</a></li>
+                    <li><a href="page1.html#pg 4" title="Переходники">Переходники</a></li>
+                    <li><a href="page1.html#pg 5" title="Нипеля">Нипеля</a></li>
+                    <li><a href="page1.html#pg 6" title="Штуцера">Штуцера</a></li>
+                    <li class="more"><a href="page1.html">Смотреть все</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6  col-md-6">
+            <div class="contact">
+                <h3>Контакты</h3>
+                <ul>
+                    <li>Украина, г.Сумы</li>
+                    <li><span class="phone"><img src="img/phone1.png" alt="phone"></span>+38 0665791239</li>
+                    <li><span class="phone"><img src="img/phone1.png" alt="phone"></span>+38 0665791239</li>
+                    <li>+38 0630788361</li>
+                    <li>factory-sumy@ukr.net</li>
+                </ul>
+            </div>
+        </div>
+    </div><!--finish "row" -->   
+    <div class="row">
         <div class="col-md-12 copirate">
-            <p> Copyright © 2017 factory-metall</p>
+            <p> Copyright © 2017 factory-sumy@ukr.net</p>
             <p>Все права защищены</p>
         </div>
     </div>
-
+</div>
 </footer>
 </div>
 </section>
