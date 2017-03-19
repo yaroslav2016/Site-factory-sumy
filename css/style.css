@@ -105,9 +105,10 @@ h3{
 	z-index: ;
 }
 .menu-carousel .carousel-caption{
-	left: -15px;
+	/*left: -15px;*/
 	top: 250px;
-	right: 15px;
+	/*right: 15px;*/
+	text-align: center;
 }
 .menu-carousel .carousel-caption h1{
 	font-weight: 700;
@@ -326,7 +327,7 @@ h3{
 	color: #0a94b2;
 }
 .content{
-	padding: 20px 0 20px;
+	padding: 20px 20px 20px;
 	line-height: 1.6;
 	font-size: 15px;
 	color: #545454;  
@@ -618,6 +619,9 @@ h3{
 			}
 			.main-menu .navbar-toggle.collapsed +.navbar-brand img{
 				max-height: 80px;
+			}
+			.menu-carousel .carousel-caption h1 {
+				font-size: 30px;
 			}
 		}
 		@media only screen and (min-width: 1200px) {
